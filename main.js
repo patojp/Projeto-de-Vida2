@@ -2,24 +2,7 @@ const botoes = document.querySelectorAll(".botao");
 const textos = document.querySelectorAll(".aba-conteudo");
 
 for (let i = 0; i < botoes.length; i++) {
-    botoeconst botoes = document.querySelectorAll(".botao");
-    const textos = document.querySelectorAll(".aba-conteudo");
-    
-    for (let i = 0; i < botoes.length; i++) {
-        botoes[i].onclick = function () {
-    
-            for (let j = 0; j < botoes.length; j++) {
-                botoes[j].classList.remove("ativo");
-                textos[j].classList.remove("ativo");
-            }
-    …}
-    
-    function comecaCronometro(){
-        atualizaCronometro();
-        setInterval(atualizaCronometro,1000);
-    }
-    
-    comecaCronometro();s[i].onclick = function () {
+    botoes[i].onclick = function () {
 
         for (let j = 0; j < botoes.length; j++) {
             botoes[j].classList.remove("ativo");
